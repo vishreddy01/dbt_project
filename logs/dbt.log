@@ -1,0 +1,30 @@
+[0m13:34:28.727039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F54DE68E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F54E6E75D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F54E6E7350>]}
+
+
+============================== 13:34:28.730039 | 6586410c-f9c9-4a68-9643-5213185bf943 ==============================
+[0m13:34:28.730039 [info ] [MainThread]: Running with dbt=1.6.2
+[0m13:34:28.731028 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\VREDDY\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init housing_connectivity_initiative', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:34:28.732029 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/VREDDY/.dbt')}
+[0m13:34:28.733031 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:34:28.734029 [debug] [MainThread]: Starter project path: C:\Users\VREDDY\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m13:34:28.779029 [info ] [MainThread]: 
+Your new dbt project "housing_connectivity_initiative" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:34:28.782030 [info ] [MainThread]: Setting up your profile.
+[0m13:35:01.712247 [info ] [MainThread]: Profile housing_connectivity_initiative written to C:\Users\VREDDY\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m13:35:01.713248 [debug] [MainThread]: Command `dbt init` succeeded at 13:35:01.713248 after 33.00 seconds
+[0m13:35:01.713248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F547B2EC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F547B2EC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F547B2F810>]}
+[0m13:35:01.714248 [debug] [MainThread]: Flushing usage events
