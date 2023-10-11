@@ -28,3 +28,44 @@ Happy modeling!
 [0m13:35:01.713248 [debug] [MainThread]: Command `dbt init` succeeded at 13:35:01.713248 after 33.00 seconds
 [0m13:35:01.713248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F547B2EC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F547B2EC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F547B2F810>]}
 [0m13:35:01.714248 [debug] [MainThread]: Flushing usage events
+[0m23:08:30.818887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDDFB72350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDDF508D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDE28F2090>]}
+
+
+============================== 23:08:30.834512 | 9586ff72-5921-412d-a2b6-26f8ec706fef ==============================
+[0m23:08:30.834512 [info ] [MainThread]: Running with dbt=1.6.2
+[0m23:08:30.834512 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\VREDDY\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run --models ats_extract', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:08:30.836448 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\VREDDY\Softwares\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:08:30.838448 [debug] [MainThread]: Command `dbt run` failed at 23:08:30.837447 after 0.03 seconds
+[0m23:08:30.838448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDE24027D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDE2CD7050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDE286D050>]}
+[0m23:08:30.838448 [debug] [MainThread]: Flushing usage events
+[0m07:57:18.075543 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F73880D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F77CF1710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F779CF190>]}
+
+
+============================== 07:57:18.084253 | beee9bdc-df16-4b5d-8d96-97335c926346 ==============================
+[0m07:57:18.084253 [info ] [MainThread]: Running with dbt=1.6.2
+[0m07:57:18.084253 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\VREDDY\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init rrs_xnrs_data_processing', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:57:18.084253 [debug] [MainThread]: Starter project path: C:\Users\VREDDY\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m07:57:18.141998 [info ] [MainThread]: 
+Your new dbt project "rrs_xnrs_data_processing" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:57:18.141998 [info ] [MainThread]: Setting up your profile.
+[0m07:57:22.913008 [debug] [MainThread]: Command `dbt init` succeeded at 07:57:22.913008 after 4.86 seconds
+[0m07:57:22.913008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F77D04150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F77C26750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F779CE050>]}
+[0m07:57:22.915205 [debug] [MainThread]: Flushing usage events
