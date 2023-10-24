@@ -2,7 +2,7 @@
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='resource_road_tenure_guid',
           updated_at='update_date',
@@ -17,7 +17,7 @@ SELECT * FROM app_rrs1.resource_road_tenure
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_appl_map_feature_guid',
           updated_at='update_date',
@@ -32,7 +32,7 @@ SELECT * FROM app_rrs1.road_appl_map_feature
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_application_guid',
           updated_at='update_date',
@@ -47,7 +47,7 @@ SELECT * FROM app_rrs1.road_application
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_application_status_code',
           updated_at='update_date',
@@ -62,7 +62,7 @@ SELECT * FROM app_rrs1.road_application_status_code
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_feature_class_sdw_guid',
           updated_at='update_date',
@@ -77,7 +77,7 @@ SELECT * FROM app_rrs1.road_feature_class_sdw
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_org_unit_sdw_guid',
           updated_at='update_date',
@@ -92,7 +92,7 @@ SELECT * FROM app_rrs1.road_org_unit_sdw
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_section_guid',
           updated_at='update_date',
@@ -107,7 +107,7 @@ SELECT * FROM app_rrs1.road_section
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_section_status_code',
           updated_at='update_date',
@@ -122,7 +122,7 @@ SELECT * FROM app_rrs1.road_section_status_code
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_submission_guid',
           updated_at='update_date',
@@ -137,7 +137,7 @@ SELECT * FROM app_rrs1.road_submission
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_tenure_status_code',
           updated_at='update_date',
@@ -152,7 +152,7 @@ SELECT * FROM app_rrs1.road_tenure_status_code
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='road_tenure_type_code',
           updated_at='update_date',
@@ -167,7 +167,7 @@ SELECT * FROM app_rrs1.road_tenure_type_code
 
     {{
         config(
-          target_schema='rrs_hist_schema',
+          target_schema='rrs_replication_hist',
           strategy='timestamp',
           unique_key='submission_status_code',
           updated_at='update_date',
