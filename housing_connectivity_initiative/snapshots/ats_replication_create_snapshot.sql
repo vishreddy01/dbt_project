@@ -9,7 +9,7 @@
         )
     }}
 
-SELECT * FROM ats_replication1.ats_athn_close_reason_codes
+SELECT * FROM ats_replication.ats_athn_close_reason_codes
 
 {% endsnapshot %}
 
